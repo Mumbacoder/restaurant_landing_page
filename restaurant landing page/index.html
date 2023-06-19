@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurant Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="src/image/restaurantlogo.jpg"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">MENU</a>
+          <a href="#our-service" class="nav-link">OUR SERVICES</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="src/image/restaurant.jpg" alt="Image of a restaurant" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Fresh, Heavenly Dishes.</h1>
+          <h2>
+            100% Organic, fresh and tasty meals prepared with love and passion, aka The
+            Heaven of Earth.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Welcome to Delicacy Restaurant, where culinary excellence meets warm hospitality. Located in the heart of Nairobi, our restaurant offers a delightful dining experience that tantalizes your taste buds and creates lasting memories.
+
+At Delicacy Restaurant, we pride ourselves on our commitment to using the freshest, locally sourced ingredients to craft an array of exquisite dishes. Our talented team of chefs combines their passion for culinary artistry with innovative techniques, resulting in a menu that is both creative and comforting. Whether you're a fan of classic favorites or crave adventurous flavors, our diverse selection of appetizers, main courses, and desserts is sure to captivate your senses.
+
+Step into our elegant and inviting atmosphere, where our friendly and attentive staff will make you feel right at home. We believe that great food is best enjoyed in the company of loved ones, and our restaurant offers a cozy ambiance perfect for intimate dinners, celebrations, and special occasions.
+
+To complement your dining experience, we boast an impressive wine list featuring a carefully curated selection of local and international varietals. Our knowledgeable sommeliers are always on hand to guide you through the perfect pairing for your meal, ensuring a truly indulgent experience.
+
+At Delicacy Restaurant, we strive to create a haven for food enthusiasts and provide a memorable dining experience that exceeds your expectations. We look forward to welcoming you and sharing our passion for exceptional cuisine, impeccable service, and a warm, inviting atmosphere. Join us today and embark on a culinary journey that will leave you craving for more.
+          </p>
+          <img src="src/image/chef.jpg" alt="A chef cooking" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">MENU</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="src/image/steak.jpg" alt="photo of steak" />
+            <h4>Steak</h4>
+            <p>
+              Our signature steak. Grilled or fried? You chose!
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="src/image/pasta.jpg"
+              alt="photo pasta"
+            />
+            <h4>Pasta</h4>
+            <p>
+              Our amazing recipe on this one will leave you wanting to have more.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="src/image/pilau.jpg" alt="photo of pilau" />
+            <h4>Pilau</h4>
+            <p>
+              A very popular and widely cultivated Kenyan cuisine, rich in amazing and delicious spices.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="src/image/smoothie.jpg" alt="smoothies" />
+            <h4>Smoothies</h4>
+            <p>
+              Alarge variety of smoothoes available for you and your loved ones.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="src/image/pizza.jpg" alt="photo of pizza" />
+            <h4>Pizza</h4>
+            <p>
+             A wide variety of choices to pick from. Hawaiian or BBQ Steak?
+            </p>
+          </div>
+          <div class="tile">
+            <img src="src/image/ugali.jpg" alt="photo of ugali" />
+            <h4>Ugali</h4>
+            <p>
+              A local cuisine you don't want to miss! Comes accompanied with your favourite local vegetables.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICES</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver fresh food with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as food is prepared from the kitchen.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your purchase experience smooth. But if we mess up somehow you
+                will get compensated for every inconvenience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To know more about us, or make an order from us, Please contact us.</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Copyright 
+      <a href="#">Delicacy Restaurant</a>
+    </footer>
+  </body>
+</html>
